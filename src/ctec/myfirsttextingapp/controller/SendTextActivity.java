@@ -22,9 +22,9 @@ public class SendTextActivity extends Activity
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_send_text);
 		
-		smsMessageField = (EditText) findViewById(R.id.smsContentEditText);
-		smsNumberField = (EditText) findViewById(R.id.smsNumberEditText);
-		sendSMSButton = (Button) findViewById(R.id.sendSMSButton);
+		smsMessageField = (EditText) findViewById(R.id.smsEditContentTextField);
+		smsNumberField = (EditText) findViewById(R.id.smsEditNumberTextField);
+		sendSMSButton = (Button) findViewById(R.id.sendButton);
 	}
 	
 	private void setupListeners()

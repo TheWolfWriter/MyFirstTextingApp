@@ -2,6 +2,8 @@
 <resources>
 
     <string name="app_name">My First Texting App</string>
-    <string name="hello_world">Hello world!</string>
+    <string name="smsContentEditText">Content Text</string>
+    <string name="smsNumberEditText">Number Here</string>
+    <string name="sendSMSButton">Send</string>
 
 </resources>
